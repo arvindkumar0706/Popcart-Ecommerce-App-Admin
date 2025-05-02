@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:elevation="2dp"
+        tools:ignore="MissingConstraints"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/orderIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order ID"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/addressTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date" />
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+
+        <TextView
+            android:id="@+id/totalPriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price" />
+
+
+        <TextView
+            android:id="@+id/productsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Products" />
+        <TextView
+            android:id="@+id/quantityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/product_border"
+    android:layout_marginBottom="20dp"
+    android:padding="20dp">
+
+    <!-- Product Name -->
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Product Category -->
+    <TextView
+        android:id="@+id/productCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: Electronics"
+        android:textSize="16sp" />
+
+    <!-- Product Price -->
+    <TextView
+        android:id="@+id/productPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: $99.99"
+        android:textSize="16sp" />
+
+    <!-- Offer Percentage (if available) -->
+    <TextView
+        android:id="@+id/productOffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offer: 10% OFF"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- Product Description -->
+    <TextView
+        android:id="@+id/productDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Product Colors (if available) -->
+    <TextView
+        android:id="@+id/productColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Colors: Red, Blue"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- Product Sizes (if available) -->
+    <TextView
+        android:id="@+id/productSizes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Sizes: M, L"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- Product Images -->
+    <LinearLayout
+        android:id="@+id/productImagesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <!-- Add Image Views Dynamically if Needed -->
+        <ImageView
+            android:id="@+id/productImage1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/image_placeholder" />
+
+
+
+        <!-- Add more images as needed -->
+    </LinearLayout>
+
+</LinearLayout>
